@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import TestContainer from '../containers/TestContainer/index';
+import DefaultScreen from '../containers/DefaultScreen/DefaultScreen';
 
 const AppRouter = () => (
   <BrowserRouter>
-    <React.Fragment>
+    <div className='appRouterContent'>
       <Switch>
-        <Route path="/" component={TestContainer} exact={true} />
+        <Route path="/" component={DefaultScreen} exact={true} />
       </Switch>
-    </React.Fragment>
+    </div>
   </BrowserRouter>
 );
 

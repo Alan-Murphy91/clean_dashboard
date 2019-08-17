@@ -1,3 +1,12 @@
 @import './components.scss';
 @import './containers.scss';
 @import './variables.scss';
+
+@import '../routers/style.scss';
+
+@import '../containers/Main/style.scss';
+@import '../containers//DefaultScreen/style.scss';
+
+@import '../components/Header/style.scss';
+@import '../components/Footer/style.scss';
+@import '../components/Introduction/style.scss';
